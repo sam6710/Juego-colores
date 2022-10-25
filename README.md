@@ -1,4 +1,4 @@
-# Juego-colores
+# Juego colores
 Juego de adivinar el color mediante su código RGB
 -------------------------------------------------
 JS Guess the Color Game
