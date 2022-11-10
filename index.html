@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Colores</title>
+    <script type="text/javascript" src="./index.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+        body{
+            text-align: center;
+        }
+        button{
+            border: none;
+            background-color: white;
+            color: rgb(45,142,153);
+            font-size: 20px;
+        }
+        #cabecera{
+            background-color: rgb(45,142,153);
+            color: white;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.6em;
+            padding:5px;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+        }
+        #colores{
+            padding: 12px;
+            align-content: center;
+            background-color: rgb(35,35,35);
+            display: grid;
+            grid-template-columns:200px 200px 200px;
+            padding-left: 35%;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+        .div_colores{
+            width: 140px;
+            height: 140px;
+            border-radius: 15%;
+            margin: 10px;
+        }
+        img{
+            width: 120px;
+            height: 120px;
+            margin-top: 10px;
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div id="cabecera">
+        <p>THE GREAT</p>
+        <h1></h1>
+        <p>GUESSING GAME</p>
+    </div>
+    <p id="reiniciar"><button id="new_colors">NEW COLORS</button></p>
+    <div id="colores">
+        <div class="div_colores" id="div1"><img src=""></div>
+        <div class="div_colores" id="div2"><img src=""></div>
+        <div class="div_colores" id="div3"><img src=""></div>
+        <div class="div_colores" id="div4"><img src=""></div>
+        <div class="div_colores" id="div5"><img src=""></div>
+        <div class="div_colores" id="div6"><img src=""></div>
+    </div>
+    <h2 id="conclusion"></h2>
+</body>
+</html>
